@@ -2,7 +2,7 @@
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    padding: 0 100px;
+    padding: 0 200px;
 }
 .topheader{
     display: flex;
@@ -26,6 +26,8 @@ ul{
     list-style: none;
     color: #e5e7eb;
     font-size: 18px;
+    display: flex;
+    gap: 19px;
 }
 p{
     color: #e5e7eb;
@@ -34,4 +36,27 @@ p{
 #bigimg{
     height: 400px;
     transform: rotate(90deg);
+}
+.info{
+    text-align: center;
+    font-weight: bold;
+    color: #1F2937;
+    font-size: 36px;
+}
+.bluebox{
+    border: solid;
+    border-color: #3882f6;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+}
+.midimgs{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.boxandtext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
