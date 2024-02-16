@@ -5,7 +5,7 @@ body{
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    padding: 0 200px;
+    padding: 0 200px 100px 200px;
 }
 .topheader{
     display: flex;
@@ -16,12 +16,16 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.topdescription{
+    padding-right: 30px;
+}
 .topdescription button{
     background-color: #3882f6;
     color: #f9faf8;
     border-radius: 10px;
     border: 0;
-    padding: 3px 15px;
+    padding: 5px 20px;
+    font-size: 15px;
     
 }
 h1{
@@ -44,9 +48,13 @@ ul{
     color: #e5e7eb;
     font-size: 18px;
 }
-#bigimg{
-    height: 400px;
-    transform: rotate(90deg);
+.imgholder{
+    color: #e5e7eb;
+    background-color: #9d9d9d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
 }
 .info{
     text-align: center;
