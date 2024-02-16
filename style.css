@@ -29,7 +29,7 @@ ul{
     display: flex;
     gap: 19px;
 }
-p{
+.sometxt{
     color: #e5e7eb;
     font-size: 18px;
 }
@@ -59,4 +59,22 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.boxandtext p{
+    color: #1F2937;
+}
+.quote{
+    background-color: #e5e7eb;
+    padding: 50px 300px;
+}
+.thequote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0 ;
+}
+.bywho{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: right;
 }
